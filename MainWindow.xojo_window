@@ -18,9 +18,9 @@ Begin Window MainWindow
    MaxWidth        =   32000
    MenuBar         =   0
    MenuBarVisible  =   True
-   MinHeight       =   64
+   MinHeight       =   666
    MinimizeButton  =   True
-   MinWidth        =   64
+   MinWidth        =   800
    Placement       =   0
    Resizeable      =   True
    Title           =   "pgNotifyDebug"
@@ -53,7 +53,7 @@ Begin Window MainWindow
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   772
+      Width           =   623
       Begin TextField dbAddress_field
          AcceptTabs      =   False
          Alignment       =   2
@@ -225,7 +225,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   628
+         Left            =   505
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   False
@@ -238,11 +238,11 @@ Begin Window MainWindow
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   31
+         Top             =   30
          Transparent     =   True
          Underline       =   False
          Visible         =   True
-         Width           =   134
+         Width           =   108
       End
       Begin Label Label3
          AutoDeactivate  =   True
@@ -1021,6 +1021,41 @@ Begin Window MainWindow
          Width           =   77
       End
    End
+   Begin Label Label6
+      AutoDeactivate  =   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   66
+      HelpTag         =   "Click to visit GitHub project page"
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   645
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   False
+      LockRight       =   True
+      LockTop         =   True
+      Multiline       =   True
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   5
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "The\r\npgNotifyDebug\r\nproject\r\nby George Poulopoulos"
+      TextAlign       =   2
+      TextColor       =   &c0000FF00
+      TextFont        =   "System"
+      TextSize        =   12.0
+      TextUnit        =   0
+      Top             =   20
+      Transparent     =   False
+      Underline       =   True
+      Visible         =   True
+      Width           =   147
+   End
 End
 #tag EndWindow
 
@@ -1236,6 +1271,14 @@ End
 		  end if
 		  
 		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events Label6
+	#tag Event
+		Function MouseDown(X As Integer, Y As Integer) As Boolean
+		  ShowURL("https://github.com/gregorplop/pgNotifyDebug")
+		  
+		End Function
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
