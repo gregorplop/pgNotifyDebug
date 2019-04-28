@@ -9,7 +9,7 @@ Begin Window MainWindow
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   666
+   Height          =   650
    ImplicitInstance=   True
    LiveResize      =   True
    MacProcID       =   0
@@ -18,14 +18,14 @@ Begin Window MainWindow
    MaxWidth        =   32000
    MenuBar         =   0
    MenuBarVisible  =   True
-   MinHeight       =   666
+   MinHeight       =   650
    MinimizeButton  =   True
-   MinWidth        =   800
+   MinWidth        =   850
    Placement       =   0
    Resizeable      =   True
    Title           =   "pgNotifyDebug"
    Visible         =   True
-   Width           =   802
+   Width           =   850
    Begin GroupBox dbConnectionGroup
       AutoDeactivate  =   True
       Bold            =   True
@@ -53,7 +53,7 @@ Begin Window MainWindow
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   623
+      Width           =   680
       Begin TextField dbAddress_field
          AcceptTabs      =   False
          Alignment       =   2
@@ -72,7 +72,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   30
+         Left            =   22
          LimitText       =   0
          LockBottom      =   False
          LockedInPosition=   False
@@ -116,7 +116,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   150
+         Left            =   142
          LimitText       =   0
          LockBottom      =   False
          LockedInPosition=   False
@@ -153,7 +153,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   30
+         Left            =   22
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -188,7 +188,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   150
+         Left            =   142
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -212,38 +212,6 @@ Begin Window MainWindow
          Visible         =   True
          Width           =   66
       End
-      Begin PushButton connect_btn
-         AutoDeactivate  =   True
-         Bold            =   False
-         ButtonStyle     =   "0"
-         Cancel          =   False
-         Caption         =   "Connect"
-         Default         =   False
-         Enabled         =   True
-         Height          =   47
-         HelpTag         =   ""
-         Index           =   -2147483648
-         InitialParent   =   "dbConnectionGroup"
-         Italic          =   False
-         Left            =   505
-         LockBottom      =   False
-         LockedInPosition=   False
-         LockLeft        =   False
-         LockRight       =   True
-         LockTop         =   True
-         Scope           =   0
-         TabIndex        =   4
-         TabPanelIndex   =   0
-         TabStop         =   True
-         TextFont        =   "System"
-         TextSize        =   0.0
-         TextUnit        =   0
-         Top             =   30
-         Transparent     =   True
-         Underline       =   False
-         Visible         =   True
-         Width           =   108
-      End
       Begin Label Label3
          AutoDeactivate  =   True
          Bold            =   False
@@ -255,7 +223,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   228
+         Left            =   220
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -297,7 +265,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   228
+         Left            =   220
          LimitText       =   0
          LockBottom      =   False
          LockedInPosition=   False
@@ -334,7 +302,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   320
+         Left            =   312
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -376,7 +344,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   320
+         Left            =   312
          LimitText       =   0
          LockBottom      =   False
          LockedInPosition=   False
@@ -413,7 +381,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   409
+         Left            =   401
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -455,7 +423,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "dbConnectionGroup"
          Italic          =   False
-         Left            =   409
+         Left            =   401
          LimitText       =   0
          LockBottom      =   False
          LockedInPosition=   False
@@ -480,6 +448,105 @@ Begin Window MainWindow
          UseFocusRing    =   True
          Visible         =   True
          Width           =   77
+      End
+      Begin Label Label7
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "dbConnectionGroup"
+         Italic          =   False
+         Left            =   490
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   11
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "SSL mode"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   31
+         Transparent     =   True
+         Underline       =   False
+         Visible         =   True
+         Width           =   68
+      End
+      Begin PopupMenu PopSSLMode
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "dbConnectionGroup"
+         InitialValue    =   "SSLDisable\nSSLAllow\nSSLPrefer\nSSLRequire\nSSLVerifyCA\nSSLVerifyFull"
+         Italic          =   False
+         Left            =   490
+         ListIndex       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   12
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   55
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   80
+      End
+      Begin PushButton connect_btn
+         AutoDeactivate  =   True
+         Bold            =   False
+         ButtonStyle     =   "0"
+         Cancel          =   False
+         Caption         =   "Connect"
+         Default         =   False
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "dbConnectionGroup"
+         Italic          =   False
+         Left            =   582
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   13
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   54
+         Transparent     =   True
+         Underline       =   False
+         Visible         =   True
+         Width           =   98
       End
    End
    Begin Timer pollMessageQueue
@@ -685,11 +752,11 @@ Begin Window MainWindow
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   380
+         Top             =   381
          Transparent     =   True
          Underline       =   False
          Visible         =   True
-         Width           =   59
+         Width           =   69
       End
    End
    Begin TextArea log
@@ -704,7 +771,7 @@ Begin Window MainWindow
       DataSource      =   ""
       Enabled         =   True
       Format          =   ""
-      Height          =   182
+      Height          =   166
       HelpTag         =   ""
       HideSelection   =   True
       Index           =   -2147483648
@@ -739,7 +806,7 @@ Begin Window MainWindow
       Underline       =   False
       UseFocusRing    =   True
       Visible         =   True
-      Width           =   782
+      Width           =   830
    End
    Begin GroupBox incomingGroup
       AutoDeactivate  =   True
@@ -768,7 +835,7 @@ Begin Window MainWindow
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   591
+      Width           =   639
       Begin Listbox incomingList
          AutoDeactivate  =   True
          AutoHideScrollbars=   True
@@ -817,7 +884,7 @@ Begin Window MainWindow
          Underline       =   False
          UseFocusRing    =   True
          Visible         =   True
-         Width           =   567
+         Width           =   615
          _ScrollOffset   =   0
          _ScrollWidth    =   -1
       End
@@ -849,7 +916,7 @@ Begin Window MainWindow
       Transparent     =   True
       Underline       =   False
       Visible         =   True
-      Width           =   581
+      Width           =   629
       Begin ComboBox sendMessage
          AutoComplete    =   False
          AutoDeactivate  =   True
@@ -863,7 +930,7 @@ Begin Window MainWindow
          InitialParent   =   "outgoingGroup"
          InitialValue    =   ""
          Italic          =   False
-         Left            =   302
+         Left            =   318
          ListIndex       =   0
          LockBottom      =   False
          LockedInPosition=   False
@@ -917,7 +984,7 @@ Begin Window MainWindow
          Transparent     =   True
          Underline       =   False
          Visible         =   True
-         Width           =   89
+         Width           =   102
       End
       Begin Label toLabel
          AutoDeactivate  =   True
@@ -930,7 +997,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "outgoingGroup"
          Italic          =   False
-         Left            =   466
+         Left            =   482
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   True
@@ -954,8 +1021,7 @@ Begin Window MainWindow
          Visible         =   True
          Width           =   67
       End
-      Begin ComboBox sendChannel
-         AutoComplete    =   False
+      Begin PopupMenu sendChannel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -967,7 +1033,7 @@ Begin Window MainWindow
          InitialParent   =   "outgoingGroup"
          InitialValue    =   ""
          Italic          =   False
-         Left            =   540
+         Left            =   556
          ListIndex       =   0
          LockBottom      =   False
          LockedInPosition=   False
@@ -984,7 +1050,6 @@ Begin Window MainWindow
          Top             =   410
          Transparent     =   True
          Underline       =   False
-         UseFocusRing    =   True
          Visible         =   True
          Width           =   101
       End
@@ -1001,7 +1066,7 @@ Begin Window MainWindow
          Index           =   -2147483648
          InitialParent   =   "outgoingGroup"
          Italic          =   False
-         Left            =   697
+         Left            =   745
          LockBottom      =   False
          LockedInPosition=   False
          LockLeft        =   False
@@ -1032,7 +1097,7 @@ Begin Window MainWindow
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   645
+      Left            =   693
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   False
@@ -1105,6 +1170,21 @@ End
 		  db.UserName = dbUsername_field.Text.Trim
 		  db.Password = dbPassword_field.Text.Trim
 		  
+		  Select case  PopSSLMode.ListIndex
+		  case 0
+		    db.SSLMode = PostgreSQLDatabase.SSLDisable
+		  case 1
+		    db.SSLMode = PostgreSQLDatabase.SSLAllow
+		  case 2
+		    db.SSLMode = PostgreSQLDatabase.SSLPrefer
+		  case 3
+		    db.SSLMode = PostgreSQLDatabase.SSLRequire
+		  case 4
+		    db.SSLMode = PostgreSQLDatabase.SSLVerifyCA
+		  case 5
+		    db.SSLMode = PostgreSQLDatabase.SSLVerifyFull
+		  End Select
+		  
 		  if db.Connect = false then 
 		    log.AppendText "Connection failed: " + db.ErrorMessage + EndOfLine
 		    pollMessageQueue.Mode = timer.ModeOff
@@ -1164,9 +1244,8 @@ End
 		    logAppend(db.ErrorMessage)
 		    
 		  else
-		    
+		    sendChannel.RemoveRow(activeChannelsList.ListIndex)
 		    activeChannelsList.RemoveRow(activeChannelsList.ListIndex)
-		    
 		  end if
 		  
 		End Sub
@@ -1201,6 +1280,7 @@ End
 		    
 		  else
 		    activeChannelsList.AddRow inputChannel
+		    sendChannel.AddRow inputChannel
 		    channel2listen_field.Text = ""
 		  end if
 		  
@@ -1246,7 +1326,7 @@ End
 		    exit sub
 		  end if
 		  
-		  dim messageCmd as string = "NOTIFY " + sendChannel.Text.Trim + " , '" + sendMessage.Text.Trim + "'"
+		  dim messageCmd as string = "NOTIFY """ + sendChannel.Text.Trim + """ , '" + sendMessage.Text.Trim + "'"
 		  dim exists as Boolean
 		  
 		  db.SQLExecute(messageCmd)
